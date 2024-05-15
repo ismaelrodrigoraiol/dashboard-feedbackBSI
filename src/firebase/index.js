@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB6Ff0RLf3fsQLyJ8QvAisD01hzwSqNorQ",
-  authDomain: "feedback-bsi.firebaseapp.com",
-  projectId: "feedback-bsi",
-  storageBucket: "feedback-bsi.appspot.com",
-  messagingSenderId: "960766603060",
-  appId: "1:960766603060:web:3039a53fb55e11be797f61"
+  apiKey: "AIzaSyCy9k_oqFdLH_vUNP8PI-vshGdkNvxaFQk",
+  authDomain: "feedback-bsidb.firebaseapp.com",
+  projectId: "feedback-bsidb",
+  storageBucket: "feedback-bsidb.appspot.com",
+  messagingSenderId: "291649792380",
+  appId: "1:291649792380:web:72fcbbb3b2690473af1cf9"
 };
 
 // Initialize Firebase

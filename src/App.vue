@@ -91,7 +91,7 @@ onMounted(async() => {
 })
  
 const excluir = id => {
-  const res = confirm("Tem certeza que deseja excluir essa resposta?")
+  const res = confirm("❌ Tem certeza que deseja excluir essa resposta?")
   if (res == true){
     deleteDoc(doc(collection(db, 'respostas'), id))
   }
